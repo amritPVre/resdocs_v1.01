@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexible Layout</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="flexible_layout.css" rel="stylesheet">
+<link href="template.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.canvas.min.js"></script>
+<script src="template.js"></script>
+</head>
+<body>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_LayoutGrid2">
+                  <div id="LayoutGrid2">
+                     <div class="row">
+                        <div class="col-1">
+                           <div class="col-1-padding">
+                              <picture id="wb_Picture1" style="display:block;width:100%;height:auto;z-index:0">
+                                 <img src="images/profile_pic.jpg" id="Picture1" alt="" width="172" height="172">
+                              </picture>
+                           </div>
+                        </div>
+                        <div class="col-2">
+                           <div class="col-2-padding">
+                              <div id="wb_Text1">
+                                 <span style="color:#000000;font-family:Arial;font-size:24px;"><strong>{{ name }}<br>{{ position }}<br><br>{{meta1}} | {{meta2}}<br>{{meta3}}</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-3">
+                           <div class="col-3-padding">
+                              <div id="wb_Text2">
+                                 <span style="color:#000000;font-family:Arial;font-size:20px;line-height:21px;"><strong>E-Mail id: </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;line-height:21px;"><strong><u>{{ email }}</u></strong></span><span style="color:#000000;font-family:Arial;font-size:20px;line-height:22px;"><strong><br>Address: {{ city }}, {{ country}}<br>Contact Number: {{ph}}<br>LinkedIn: </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;line-height:22px;"><strong><em><u>{{linkedin}}</u></em></strong></span><span style="color:#000000;font-family:Arial;font-size:20px;line-height:15px;"><strong><br>DOB: {{dob}} | Nationality: {{citizen}}</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid3">
+      <div id="LayoutGrid3">
+         <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-2">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid4">
+      <div id="LayoutGrid4">
+         <div class="row">
+            <div class="col-1">
+               <hr id="Line1" style="display:block;width:100%;z-index:7;">
+            </div>
+         </div>
+      </div>
+   </div>
+   <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:2131px;margin:0;border-width:0;z-index:250" width="16" height="16"></a>
+   <div id="wb_Line2" style="position:absolute;left:565px;top:11px;width:4px;height:184px;z-index:12;">
+      <canvas id="Line2" height="184" width="4"></canvas>
+   </div>
+</body>
+</html>
